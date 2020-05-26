@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+}
+
+.outer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 4px 7px rgba(0, 0, 0, 0.6);
+    font-style: italic;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav a {
+    color: rgb(254, 254, 254);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-right: 144px;
+    color: rgb(108, 108, 108);
+    font-size: 30px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}
+.bg-image img {
+    width: 400px;
+    height: 400px;
+    margin: 100px 100px;
+    border-radius: 52%;
+}
+
+.text {
+    width: 40%;
+    height: 174px;
+    margin-top: 180px;
+    margin-right: 401px;
+    padding: 15px;
+}
+.text p {
+    color: rgb(88, 88, 93);
+    font-size: 36px;
+}
+.text h1 {
+    color: rgb(0, 87, 194);
+    font-size: 40px;
+}
+.text button {
+    margin-top: 18px;
+    padding: 10px 20px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(0, 71, 189);
+    border-radius: 30px;
+    border-style: none;
+    -webkit-box-shadow: 20px 18px 36px -8px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 20px 18px 36px -8px rgba(0, 0, 0, 0.58);
+    box-shadow: 20px 18px 36px -8px rgba(0, 0, 0, 0.58);
+}
+.header-contents {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin-right: 147px;
+    margin-bottom: 30px;
+}
+.header-contents1 {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.icons {
+    padding-top: 15px;
+    color: rgb(61, 61, 61);
+}
+.para {
+    margin-right: 70px;
+    padding-top: 12px;
+}
+.layer {
+    position: absolute;
+    width: 28%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+    background: linear-gradient(rgb(95, 202, 220, 0.7), rgb(130, 94, 202));
+}
+
